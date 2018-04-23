@@ -21,9 +21,9 @@ class Triangle
     end
   end
 
-  #def less_than_or_equal_to_zero
-    #side<=0
-  #end
+  def less_than_or_equal_to_zero
+    side1 <=0 || side2 <=0 || side3<=0
+  end
 
   class TriangleError < StandardError
     def message
